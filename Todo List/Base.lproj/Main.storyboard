@@ -31,7 +31,14 @@
                             <outlet property="delegate" destination="GRE-Lo-Ojq" id="wf0-28-fSq"/>
                         </connections>
                     </tableView>
-                    <navigationItem key="navigationItem" title="Todo List" id="zVC-Ci-ATG"/>
+                    <navigationItem key="navigationItem" title="Todo List" id="zVC-Ci-ATG">
+                        <barButtonItem key="rightBarButtonItem" systemItem="add" id="0Tl-wc-Ftd">
+                            <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <connections>
+                                <action selector="addButtonPressed:" destination="GRE-Lo-Ojq" id="Ns5-2T-Quz"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="gbj-KX-ar3" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
